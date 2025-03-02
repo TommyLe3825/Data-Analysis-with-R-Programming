@@ -1,7 +1,6 @@
-/*
-As a junior data analyst working for a hotel booking company, I have the task of cleaning up a .csv file that was created after querying a database to combine two different tables from different hotels
-You will need to use functions to preview the data's structure as well as basic leaning functions to prepare the data for analysis!
-*/
+#As a junior data analyst working for a hotel booking company, I have the task of cleaning up a .csv file that was created after querying a database to combine two different tables from different hotels
+#You will need to use functions to preview the data's structure as well as basic leaning functions to prepare the data for analysis!
+
 
 #if you haven't installed the packages at all, we should be using these
 install.packages("tidyverse")
