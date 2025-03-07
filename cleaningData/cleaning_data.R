@@ -4,7 +4,7 @@
 #You will need to use functions to preview the data's structure as well as basic leaning functions to prepare the data for analysis!
 
 
-#if you haven't installed the packages at all, we should be using these
+#If you haven't installed the packages at all, we should be using these
 install.packages("tidyverse")
 install.packages("skimr")
 install.packages("janitor")
