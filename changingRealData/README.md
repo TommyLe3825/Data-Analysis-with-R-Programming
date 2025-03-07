@@ -1,7 +1,7 @@
-# title: "Lesson 3: Changing your data"
+# Title: "Lesson 3: Changing your data"
 
 ## Background for this activity
-In this activity, youâ€™ll review a scenario, and focus on manipulating and changing real data in R. You will learn more about functions you can use to manipulate your data, use statistical summaries to explore your data, and gain initial insights for your stakeholders. 
+In this activity, youâ€™ll review a scenario and focus on manipulating and changing real data in R. You will learn more about functions you can use to manipulate your data, use statistical summaries to explore your data, and gain initial insights for your stakeholders. 
 
 Throughout this activity, you will also have the opportunity to practice writing your own code by making changes to the code chunks yourself. If you encounter an error or get stuck, you can always check the Lesson3_Change_Solutions .rmd file in the Solutions folder under Week 3 for the complete, correct code. 
 
