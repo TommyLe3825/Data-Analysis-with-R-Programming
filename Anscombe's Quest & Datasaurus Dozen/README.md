@@ -3,20 +3,7 @@
 ## Using examples like the Anscombe's Quest which although it does have a similar summary when calculated, we actually get different plots for each
 
 **Summarzing Anscombe's Quest using the summarize function of dplyr package**
-
-A tibble: 4 × 6
-
-  set   `mean(x)` `sd(x)` `mean(y)` `sd(y)` `cor(x, y)`
-  
-  <fct>     <dbl>   <dbl>     <dbl>   <dbl>       <dbl>
-
-1 I             9    3.32      7.50    2.03       0.816
-
-2 II            9    3.32      7.50    2.03       0.816
-
-3 III           9    3.32      7.5     2.03       0.816
-
-4 IV            9    3.32      7.50    2.03       0.817
+![image](https://github.com/user-attachments/assets/f196a380-a278-4429-88c9-170adc97bf80)
 
 **Visualizing Anscombe's Quest using the ggplot function of the ggplot2 package**
 <img width="431" alt="anscombe'sQuestVisualization" src="https://github.com/user-attachments/assets/771ace54-4cef-42bd-a241-e2d1d72153d9" />
