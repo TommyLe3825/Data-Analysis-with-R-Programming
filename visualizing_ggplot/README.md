@@ -3,8 +3,10 @@
 - ggplot package lets you create high-quality plots of your data. Based on the grammar of graphics(system for describing and building data visualizations), you can create the same basic components like building blocks that include:
   - A dataset
   - A set of geoms: a geom is the geometric object used to show off the data, such as using points to create a scatterplot
-  - A set of aesthetic attributes: an aesthetic is a visual property of an object in the plot like in a scatterplot; it includes things like size, shape, color, or location of the data points. It's like an aesthetic as a connection between a visual feature in your plot and a variable in your data
+  - A set of aesthetic attributes: an aesthetic is a visual property of an object in the plot like in a scatterplot; it includes things like size, shape, color, or location of the data points.
+    - It's like an aesthetic as a connection between a visual feature in your plot and a variable in your data
 
+-----------------------------------------------------------------------------------------------------------------
 For a code like this:
 **ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))**
 
