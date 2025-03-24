@@ -1,4 +1,4 @@
-# This activity from Coursera is to learn the basic logic data visualization in ggplot! 
+## This activity from Coursera is to learn the basic logic data visualization in ggplot! 
 
 - ggplot package lets you create high-quality plots of your data. Based on the grammar of graphics(system for describing and building data visualizations), you can create the same basic components like building blocks that include:
   - A dataset
