@@ -1,0 +1,20 @@
+library(ggplot2)
+library(palmerpenguins)
+
+#geom_smooth helps with visualization by fitting a smooth line to the data
+ggplot(data=penguins)+
+  geom_smooth(mapping=aes(x=flipper_length_mm, y=body_mass_g)) +
+  geom_point(mapping=aes(x=flipper_length_mm, y=body_mass_g))  
+
+#linetype helps change the appearance of lines in your plots
+ggplot(data=penguins)+
+  geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g,linetype = species))
+
+#jittering helps with overplotting by adding extra points for the data points that are similar
+#that could interfere with the true distribution of the data
+ggplot(data=penguins)+
+  geom_jitter(mapping=aes(x=flipper_length_mm, y=body_mass_g))
+
+#y-values will automatically display the counts of the x-values
+ggplot(data=diamonds)+
+  geom_bar(mapping=aes(x=cut,fill=clarity))
