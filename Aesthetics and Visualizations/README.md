@@ -8,7 +8,7 @@ You can learn more about the dataset here:
 https://www.kaggle.com/jessemostipak/hotel-booking-demand
 
 
-Analyze the dataset and create charts! After exploring your bar chart, your stakeholder has more questions. Now they want to know if the number of bookings for each distribution type is different depending on whether or not there was a deposit or what market segment they represent. 
+## Analyze the dataset and create charts! After exploring your bar chart, your stakeholder has more questions. Now they want to know if the number of bookings for each distribution type is different depending on whether or not there was a deposit or what market segment they represent. 
 
 
 Charts/Facets:
