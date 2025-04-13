@@ -13,46 +13,39 @@ Analyze the dataset and create charts! After exploring your bar chart, your stak
 
 Charts/Facets:
 
-{r example chart}
 ggplot(data = hotel_bookings)+
   geom_bar(mapping = aes(x = distribution_channel))
 
 ![image](https://github.com/user-attachments/assets/4480a901-228c-4a18-b903-d6531030ee8a)
 
-```{r pressure, echo=FALSE}
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel, fill=deposit_type))
 
 ![image](https://github.com/user-attachments/assets/e425028b-cd09-4d69-bbc3-08f570f01e59)
 
-```{r pressure, echo=FALSE}
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel, fill=market_segment))
 
 ![image](https://github.com/user-attachments/assets/39978ddb-16cf-430b-82b1-85bb576f2191)
 
-```{r creating a plot} 
 ggplot(data = hotel_bookings) +   
   geom_bar(mapping = aes(x = distribution_channel)) +   
   facet_wrap(~deposit_type)
 
 ![image](https://github.com/user-attachments/assets/15c6799d-ed4c-464b-a297-9f7cc4738e3b)
 
-```{r creating a plot}
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel)) +
   facet_wrap(~market_segment)
 
 ![image](https://github.com/user-attachments/assets/82f60b11-0524-4197-ab84-cb391ac8b814)
 
-```{r creating a plot}
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel)) +
   facet_grid(~deposit_type)
 
 ![image](https://github.com/user-attachments/assets/8ab7d7da-9d2e-4cdb-9692-c45490cada9f)
 
-{r creating a plot}
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel)) +
   facet_wrap(~deposit_type~market_segment)
