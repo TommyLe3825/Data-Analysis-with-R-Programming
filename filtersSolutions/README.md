@@ -8,7 +8,7 @@ You can learn more about the dataset here:
 https://www.kaggle.com/jessemostipak/hotel-booking-demand
 
 ## Filtering your dataset before creating a plot with ggplot can make your visualization both more accurate and focused.
-- In this R script, you can filter with just the function or you can use a pipe operator (It's basically containing it like a function for cleaniness)
+- In this R script, you can filter with just the function or you can use a pipe operator (It's basically containing it like a function for cleanliness)
 
 ### Plots Below:
 
