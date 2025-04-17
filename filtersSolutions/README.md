@@ -12,7 +12,7 @@ https://www.kaggle.com/jessemostipak/hotel-booking-demand
 
 ### Plots Below:
 
-1. ```{r creating a plot}
+1. {r creating a plot}
 ggplot(data = hotel_bookings) +
   geom_point(mapping = aes(x = lead_time, y = children))
 
