@@ -46,3 +46,7 @@ onlineta_city_hotels_v2 <- hotel_bookings %>%
 View(onlineta_city_hotels_v2)
 ```
 
+```{r creating a plot part two}
+ggplot(data = onlineta_city_hotels) +
+  geom_point(mapping = aes(x = lead_time, y = children))
+```
