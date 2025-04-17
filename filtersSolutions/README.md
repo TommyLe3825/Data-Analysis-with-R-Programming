@@ -24,14 +24,14 @@ ggplot(data = hotel_bookings) +
 
 ![image](https://github.com/user-attachments/assets/b413cbc3-2f91-4555-89ac-fb4057acd2b6)
 
-3. ```{r faceting a plot}
+3. {r faceting a plot}
 ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = hotel)) +
   facet_wrap(~market_segment)
 
 ![image](https://github.com/user-attachments/assets/39422a6c-0206-4ce2-8df4-9ea0bd70c7d9)
 
-4.```{r creating a plot part two}
+4. {r creating a plot part two}
 ggplot(data = onlineta_city_hotels) +
   geom_point(mapping = aes(x = lead_time, y = children))
 
